@@ -158,7 +158,7 @@ To initialize Git and push to GitLab:
 
 3. **Add GitLab remote:**
    ```bash
-   git remote add origin https://gitlab.com/akshaygoswami87/resume-builder.git
+   git remote add origin https://gitlab.com/akshaygoswami87-group/resume-builder.git
    git branch -M main
    git push -u origin main
    ```
