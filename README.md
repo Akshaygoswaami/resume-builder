@@ -20,6 +20,7 @@ resume-builder/
 │   └── requirements.txt
 ├── client/           # React frontend
 │   ├── src/
+│   ├── Dockerfile    # Frontend Dockerfile
 │   └── index.html
 ├── shared/           # Shared TypeScript types/schemas
 ├── script/           # Build scripts
