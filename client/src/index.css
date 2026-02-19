@@ -327,3 +327,70 @@
     inset: -1px;
   }
 }
+
+/* Visual override for the generated placeholder theme values above. */
+:root {
+  --background: 220 33% 98%;
+  --foreground: 224 30% 12%;
+  --border: 220 18% 87%;
+  --card: 0 0% 100%;
+  --card-foreground: 224 30% 12%;
+  --card-border: 220 18% 87%;
+  --sidebar: 220 30% 97%;
+  --sidebar-foreground: 224 30% 12%;
+  --sidebar-border: 220 18% 84%;
+  --sidebar-primary: 226 76% 52%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 220 33% 94%;
+  --sidebar-accent-foreground: 224 30% 14%;
+  --sidebar-ring: 226 76% 52%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 224 30% 12%;
+  --popover-border: 220 18% 87%;
+  --primary: 226 76% 52%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 220 26% 94%;
+  --secondary-foreground: 224 30% 16%;
+  --muted: 220 30% 95%;
+  --muted-foreground: 220 14% 39%;
+  --accent: 158 58% 43%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 77% 52%;
+  --destructive-foreground: 0 0% 100%;
+  --input: 220 18% 84%;
+  --ring: 226 76% 52%;
+  --chart-1: 226 76% 52%;
+  --chart-2: 158 58% 43%;
+  --chart-3: 39 90% 55%;
+  --chart-4: 280 66% 56%;
+  --chart-5: 343 82% 56%;
+  --font-sans: "Manrope", "Segoe UI", sans-serif;
+  --font-serif: "Lora", Georgia, serif;
+  --font-mono: "JetBrains Mono", Consolas, monospace;
+}
+
+@media print {
+  .print\:hidden {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+  }
+
+  .resume-paper-container {
+    border: none !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .resume-paper {
+    max-width: 100% !important;
+    min-height: auto !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 24px !important;
+  }
+}
